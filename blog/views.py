@@ -10,13 +10,6 @@ def post_list(request):
     # Pagination with 3 posts per page
     paginator = Paginator(post_list, 3)
     page_number = request.GET.get('page', 1)
-    try:
-        posts = paginator.page(page_number)
-    except PageNotAnInteger:
-        # If page_number is not an integer deliver the first page
-        posts = paginator.page(1)
-
-    exce
 
 # def post_detail(request, id):
 #     # try:
