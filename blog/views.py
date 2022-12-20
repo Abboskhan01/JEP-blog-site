@@ -16,14 +16,7 @@ def post_list(request):
         # If page_number is not an integer deliver the first page
         posts = paginator.page(1)
 
-    except EmptyPage:
-        # If page_number is out of range deliver last page of results
-        posts = paginator.page(paginator.num_pages)
-
-    return render(request,
-                  'blog/post/list.html',
-                  {'posts': posts})
-
+    exce
 
 # def post_detail(request, id):
 #     # try:
