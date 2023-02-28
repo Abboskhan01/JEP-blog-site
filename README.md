@@ -1,2 +1,2 @@
-# Blog-site
-The project is a website for blogs.
+# django-projects
+The repository include several variety django projects
