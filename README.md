@@ -1,2 +1,2 @@
 # Blog-site
- The site is written in the python django framework and it is a blog site.
+The project is a website for blogs.
